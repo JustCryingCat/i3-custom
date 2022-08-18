@@ -100,11 +100,11 @@ bindcode $super+Shift+27 restart
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        bindcode Left resize shrink width 5 px or 5 ppt
-        bindcode Down resize grow height 5 px or 5 ppt
-        bindcode Up resize shrink height 5 px or 5 ppt
-        bindcode Right resize grow width 5 px or 5 ppt
-        bindcode Return mode "default"
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
+        bindsym Escape mode "default"
 }
 bindcode $super+27 mode "resize"
 
